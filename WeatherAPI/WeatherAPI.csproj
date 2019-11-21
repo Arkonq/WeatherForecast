@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\01.png" />
+    <None Remove="Images\02.png" />
+    <None Remove="Images\03.png" />
+    <None Remove="Images\04.png" />
+    <None Remove="Images\09.png" />
+    <None Remove="Images\10.png" />
+    <None Remove="Images\11.png" />
+    <None Remove="Images\13.png" />
+    <None Remove="Images\50.png" />
+    <None Remove="Images\celsium.png" />
+    <None Remove="Images\icon.png" />
+    <None Remove="Images\space.png" />
+    <None Remove="Images\wind.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\02.png" />
+    <Resource Include="Images\03.png" />
+    <Resource Include="Images\04.png" />
+    <Resource Include="Images\09.png" />
+    <Resource Include="Images\10.png" />
+    <Resource Include="Images\11.png" />
+    <Resource Include="Images\13.png" />
+    <Resource Include="Images\50.png" />
+    <Resource Include="Images\celsium.png" />
+    <Resource Include="Images\icon.png" />
+    <Resource Include="Images\space.png" />
+    <Resource Include="Images\wind.png" />
+  </ItemGroup>
+
+</Project>
